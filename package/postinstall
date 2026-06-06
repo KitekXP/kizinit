@@ -1,3 +1,0 @@
-rm /initram/sbin/init
-ln -s /initram/bin/kizinit /initram/sbin/init
-mkdir /kizinit
