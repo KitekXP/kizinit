@@ -1,7 +1,8 @@
 CC=klcc
+CFLAGS=-static
 
 build:
-	$(CC) -o kizinit kizinit.c
+	$(CC) $(CFLAGS) -o kizinit kizinit.c
 
 clean:
 	rm kizinit
